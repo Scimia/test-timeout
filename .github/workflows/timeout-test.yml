@@ -10,5 +10,5 @@ jobs:
             - uses: actions/checkout@v2
             - run: |
                   echo "Hello world"
-                  sleep 5
+                  sleep 130
                   echo "I should run after timeout-minutes is set"
