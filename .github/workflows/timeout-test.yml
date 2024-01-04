@@ -11,4 +11,4 @@ jobs:
             - run: |
                   echo "Hello world"
                   sleep 130
-                  echo "I should run after timeout-minutes is set"
+                  echo "I should not run after timeout-minutes is set"
