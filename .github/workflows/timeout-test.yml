@@ -5,6 +5,7 @@ on:
     types: [opened, synchronize, reopened]
 jobs:
   test:
+    timeout-minutes: ${{ fromJSON(vars.GHA_DEFAULT_TIMEOUT) }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
